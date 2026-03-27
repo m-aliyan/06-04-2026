@@ -1,22 +1,21 @@
+// lib/phases.ts
 export type Phase =
   | "countdown"
   | "welcome"
-  | "bottleOpening"
-  | "scrollMap"
-  | "scrollPhotos"
-  | "scrollReasons"
-  | "scrollLetter"
-  | "scrollCake"
-  | "easterEggs";
+  | "bottle"
+  | "map"
+  | "photos"
+  | "reasons"
+  | "letter"
+  | "cake";
 
-export const phaseOrder: Phase[] = [
+export const PHASE_ORDER: Phase[] = [
   "countdown",
   "welcome",
-  "bottleOpening",
-  "scrollMap",
-  "scrollPhotos",
-  "scrollReasons",
-  "scrollLetter",
-  "scrollCake",
-  "easterEggs",
+  "bottle",
+  "map",
+  "photos",
+  "reasons",
+  "letter",
+  "cake",
 ];
